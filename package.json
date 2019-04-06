@@ -1,0 +1,36 @@
+{
+    "name": "saphire-socket",
+    "version": "0.1.0",
+    "description": "Library to connect with net socket on a server without packet data structure.",
+    "keywords": [
+        "stream",
+        "socket",
+        "websocket",
+        "framework",
+        "tcp",
+        "io"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "int64-buffer": "^0.99.1007",
+        "saphire-base": "^0.2.0"
+    },
+    "devDependencies": {
+        "expect.js": "^0.3.1",
+        "mocha": "^6.0.2"
+    },
+    "files": [
+        "lib/"
+    ],
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/diverproject/saphire-socket"
+    },
+    "contributes": {
+        "name": "Andrew Mello da Silva",
+        "email": "driwundernight@gmail.com"
+    }
+}

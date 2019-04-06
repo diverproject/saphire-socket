@@ -1,0 +1,28 @@
+//======================================================================
+// Revision Log
+//== Current Version ===================================================
+// 0.1.0
+//== Revision Description ==============================================
+// {VERSIONING}
+// {COMMENTS}
+//
+// VERSIONING:
+// {MAJOR.MINOR.BUGFIX.REVISION}
+//
+// MAJOR: major version
+// MINOR: minor version
+// BUGFIX: bug fix sequencial number
+// REVISION: revision number (isn't part of version number)
+//
+// COMMENTS:
+// {-} Revision description (add, modify, remove, fixed...).
+// {*} Observations (additional informations like test scripts).
+//== References ========================================================
+// https://keepachangelog.com/en/0.3.0/
+// https://semver.org/spec/v2.0.0.html
+//== Revisions =========================================================
+
+[2019-04-06]
+
+0.1.0.1
+- Initial project including class Socket to connect with a server.

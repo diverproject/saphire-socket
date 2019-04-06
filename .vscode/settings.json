@@ -1,0 +1,12 @@
+{
+	"standard.enable": true,
+	"standard.workingDirectories": [
+		"lib/socket"
+	],
+	"standard.options": {
+		"globals": ["$", "jQuery", "fetch"],
+		"ignore": [
+			"node_modules/**"
+		]
+	}
+}
