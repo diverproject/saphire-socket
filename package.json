@@ -1,6 +1,6 @@
 {
     "name": "saphire-socket",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Library to connect with net socket on a server without packet data structure.",
     "keywords": [
         "stream",

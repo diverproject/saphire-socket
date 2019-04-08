@@ -24,5 +24,18 @@
 
 [2019-04-06]
 
+0.1.1.2
+- Fixed require uses to avoid dependences on use index.js imports.
+- Added SocketStatus on index.js.
+- Improve getString() on InputStream:
+	- If not informed length will consider next byte as the length.
+	- If not informed encode will consider defaultEncode property.
+- Moved SocketListener to inside of Socket because they required another.
+- Add default net.Socket listenters that will be call SocketListener if setted.
+- Fixed InputStream.length() cannot consider offset.
+- Fixed InputStream.prepareBuffer() when validate a second reserve.
+
+[2019-04-06]
+
 0.1.0.1
 - Initial project including class Socket to connect with a server.
